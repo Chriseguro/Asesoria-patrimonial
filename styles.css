@@ -1,0 +1,129 @@
+/* styles.css */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFA500;
+  }
+  
+  header img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #FFA500;
+  }
+  
+  header p {
+    font-size: 1rem;
+    color: #FFFFFF;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #FFA500;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .cta-button:hover {
+    background-color: #FF8C00;
+  }
+  
+  #como-funciona {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+  }
+  
+  .step {
+    flex: 1;
+    padding: 10px;
+    color: #FFA500;
+  }
+  
+  #testimonios {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-around;
+    color: #FFA500;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  
+  footer .social-links a {
+    margin: 0 10px;
+    color: #FFA500;
+    text-decoration: none;
+  }
+  
+  footer .social-links a:hover {
+    color: #FF8C00;
+  }
+  
+/* Para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    header img {
+      max-width: 100px; /* Logo más pequeño */
+    }
+  
+    main {
+      text-align: center;
+    }
+  
+    .whatsapp-button {
+      font-size: 1rem;
+      padding: 10px 20px;
+    }
+  }
+  header img {
+    max-width: 100%; /* Se adapta al ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+  }
+  
+  @media (max-width: 768px) {
+    header img {
+      max-width: 150px; /* Tamaño ajustado para móviles */
+      margin: 0 auto; /* Centrado */
+      display: block;
+    }
+  }
+  
