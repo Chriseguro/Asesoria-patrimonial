@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
-  document.getElementById("enviarWhatsApp").addEventListener("click", function () {
+  
+document.getElementById("enviarWhatsApp").addEventListener("click", function () {
     // Captura los datos del formulario
     const nombre = document.getElementById("nombre").value;
     const email = document.getElementById("email").value;
@@ -28,9 +29,9 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Redirigir a WhatsApp
     window.open(whatsappURL, "_blank");
-  });
-  document.querySelector(".whatsapp-button").addEventListener("click", function () {
+});
+  
+document.querySelector(".whatsapp-button").addEventListener("click", function () {
     const whatsappURL = `https://wa.me/524794284913?text=Hola,%20quiero%20ahorrar.%20Me%20interesa%20una%20asesoría%20patrimonial.`;
     window.open(whatsappURL, "_blank");
-  });
-  
+});
